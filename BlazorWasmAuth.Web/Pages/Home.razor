@@ -1,0 +1,42 @@
+﻿@page "/"
+
+<MudGrid Justify="Justify.Center">
+    <MudItem lg="6" md="12">
+        <MudCard Class="pa-8">
+         @*    <FinancialSummaryChart /> *@
+        </MudCard>
+    </MudItem>
+
+    <MudItem lg="6" md="12">
+        <MudCard Class="pa-8">
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Receitas e despesas</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+              @*   <IncomesAndExpensesChart /> *@
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+
+    <MudItem lg="6" md="12">
+        <MudCard Class="pa-8">
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Entradas por categoria</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+              @*   <IncomesByCategoryChart /> *@
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+
+    <MudItem lg="6" md="12">
+        <MudCard Class="pa-8">
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Despesas por categoria</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+              @*   <ExpensesByCategoryChart /> *@
+            </MudCardContent>
+        </MudCard>
+    </MudItem>
+</MudGrid>
